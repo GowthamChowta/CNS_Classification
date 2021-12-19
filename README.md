@@ -1,5 +1,11 @@
 # CNS_Classification
 
+## Task - 1
+1. Downloaded the data from google drive. Since we are dealing with a large file the data is downloaded in multiple subparts. 
+2. 
+
+## Review on Research paper:
+
 Deep learning for cellular image analysis.
 
 The paper talks about advances of computer vision and how it can solve many problems involving biological image data. 
