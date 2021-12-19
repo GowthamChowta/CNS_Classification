@@ -1,8 +1,19 @@
 # CNS_Classification
 
 ## Task - 1
-1. Downloaded the data from google drive. Since we are dealing with a large file the data is downloaded in multiple subparts. 
-2. 
+Approach:
+1. Downloaded the data from google drive. Since we are dealing with a large file the data is downloaded in multiple subparts. Run the code in the notebook prepare data to get one folder with proper mapping of files into their respective sub folders. 
+2. Implemented custom dataloader that can load batch of images, apply random image augmentation and resize the data. 
+3. Trained a simple CNN model. The accuracy achieved was very low as the number of trainable paramters are very low. 
+4. Did transfer learning on InceptionV3, with imagenet weights. The accuracy that I can max achieve was 30%.
+5. Visualized the confusion matrix, Precision matrix, Recall matrix to understand which classes prediction are worst and which classes the model is predicting good.
+6. Showcases some test cases where the model was able to predict correctly and incorrectly.
+
+## Challenges:
+1. I trained all the model on my Macbook Air. I couldnot work on google colab with the original data. I was able to train on a 50% resized version of input images. But the accuracy was very low.
+2. I tried to use Luddy servers to train. Again the luddy server is not allowing me to use more than 30 GB of space and I am getting a warning of Usage quota exceeded. 
+3. Understanding the data is very hard. Since I come from a technology background I could not make much sense of the data. I was not able to understand what the model is thinking and why some classes are being predicted correct and why few classes are not. 
+
 
 ## Review on Research paper:
 
