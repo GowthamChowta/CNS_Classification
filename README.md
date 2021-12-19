@@ -1,7 +1,4 @@
 # CNS_Classification
-Classify the tissue images into organ systems
-
-
 
 Deep learning for cellular image analysis.
 
@@ -16,7 +13,7 @@ Deep learning refers to a set of machine learning techniques that can learn effe
 **How do you approach a problem with deep learning?**
 * A good idea is to always start with existing models. Say, you are working on a task of segmenting the images of filamentous bacteria or fluorescent microtubules, it is always recommended to start with existing models like U-Net, Mask R-CNN as they have readily available pre-trained weights. Start with existing software libraries which provide pre-trained models.
 
-**What to do when training data is limited and How do the neural networks avoid overfitting?**. 
+**What to do when training data is limited and How do the neural networks avoid overfitting?**.   
 Neural networks are very powerful and often with a small dataset or complex models the data can easily overfit. Which means the data performs really good on the training data and really bad on the test data.  
 * Data Augmentation:
 We can perform operations such as rotation, flipping, zoom, adding random Gaussian noise to increase the image diversity in a limited dataset.
@@ -27,7 +24,7 @@ Adding drop out layers turns off filters during training, which regularizes the 
 * L2 regularization:
 Regularization can be applied to each weight in the neural network. It can penalize large weights and reduce overfitting. 
 
-**Common mathematical concepts of deep learning models:**
+**Common mathematical concepts of deep learning models:**   
 * Convolutions extract local features in images. 
 * Pooling operations like max-pooling can be used to downsample an image. 
 The above 2 features reduce the image size and produce lower dimensional representations of image. 
